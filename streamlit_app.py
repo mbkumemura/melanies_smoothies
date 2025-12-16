@@ -9,14 +9,6 @@ st.write(
   """
 )
 
-"""
-option = st.selectbox(
-    "What is your favorite fruit?",
-    ('Banana', 'Strawberries', 'Peaches'),
-)
-st.write("Your favorite fruit is:", option)
-"""
-
 name_on_order = st.text_input("Name of Smoothie")
 st.write("The name on your Smoothie will be:", name_on_order)
 
